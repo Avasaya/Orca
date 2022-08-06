@@ -37,4 +37,9 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void enterArea1()
+    {
+        SceneManager.LoadScene("Area1_LevelSelection");
+    }
 }
