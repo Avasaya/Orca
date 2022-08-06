@@ -33,5 +33,10 @@ public class Area1_LevelSelectionController : MonoBehaviour
         }
     }
 
+     public void BacktoAreaSelection() 
+    {
+        SceneManager.LoadScene("AreaSelection");
+    }
+
    
 }
