@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb8a32495379f649afdd4398a8407d3, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "I\u2019m finally back here\u2026 This place has changed quite a lot. "
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: 'Well, I should reminisce later, I need to unpack my things first. '
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: Hello there, are you the new neighbor?
+    speaker: {fileID: 11400000, guid: aaf5756d2951d9c42b1d146432b7d6b7, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  - text: Hello, nice to meet you, and you are?
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: My name is Fatima. I just live a few blocks away so if you ever need help
+      you can come to me.
+    speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+    actions: []
+  - text: 'Thanks for the offer. '
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: Want me to help you with that?
+    speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+    actions: []
+  - text: "Oh, it\u2019s alright\u2026 I don\u2019t want to trouble you."
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "It\u2019s fine\u2026 I happen to like volunteer work. Have you heard of
+      ORCA?"
+    speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+    actions: []
+  - text: "ORCA? What a coincidence, that\u2019s where I\u2019ll be working from
+      now on."
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: 'Huh!? Really? What a coincidence. '
+    speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+    actions: []
+  - text: "U-huh\u2026 I\u2019ll be there working as marine biologist."
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "You\u2019re the same as Sheila then. I\u2019m a volunteer for ORCA. I
+      help clean up the beach occasionally. The day is going to end soon, should
+      we get to work?"
+    speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+    actions: []
+  - text: Alright.
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 9128ff89124e80b44954639d95916cc1, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+  background: {fileID: 21300000, guid: ce7004135181af042ae2385c57553ba5, type: 3}
+  nextScene: {fileID: 11400000, guid: f1f51161983944d4f852a22200e8d87a, type: 2}

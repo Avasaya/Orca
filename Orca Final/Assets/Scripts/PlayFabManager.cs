@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayFabManager : MonoBehaviour
 {
-    [SerializeField] GameObject signUpTab, logInTab, startPanel, HUD;
+    [SerializeField] GameObject signUpTab, logInTab;
     public TextMeshProUGUI username, userEmail, userPassword, userConfirmPass, userEmailLogin, userPasswordLogin, errorSignUp, errorLogin;
     string encryptedPassword;
     public int loading = 1;
@@ -87,5 +87,23 @@ public class PlayFabManager : MonoBehaviour
 
     void StartGame(){
         SceneManager.LoadScene(loading);
+    }
+
+    public void ResetPasswordButton(){
+        var request = new SendAccountRecoveryEmailRequest{
+            Email = userEmailLogin.text,
+            TitleId = "D546A"
+        };
+        PlayFabClientAPI.SendAccountRecoveryEmail(request, PasswordResetSuccessful, ResetFailure);
+    }
+    
+    void PasswordResetSuccessful(SendAccountRecoveryEmailResult result){
+        errorSignUp.text = "";
+        errorLogin.text = "Password reset mail sent!";
+    }
+
+    public void ResetFailure(PlayFabError error){
+        errorSignUp.text = "";
+        errorLogin.text = "Something went wrong, please try again.";
     }
 }
