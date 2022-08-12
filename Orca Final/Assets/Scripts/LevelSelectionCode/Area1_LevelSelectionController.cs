@@ -25,7 +25,7 @@ public class Area1_LevelSelectionController : MonoBehaviour
         switch (levelNo)
         {
         case 1:
-            SceneManager.LoadScene("OrcaGame");
+            SceneManager.LoadScene("CS-Introduction");
             break;
         default:
             

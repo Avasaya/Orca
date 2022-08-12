@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RecyclingStation/ProjectCloseup.unity
     guid: 69f2bac08dbf222408f6ef70450d94c3
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/CS-Introduction.unity
+    guid: 208296d8c534b5742baef51eb24c9b85
   m_configObjects: {}

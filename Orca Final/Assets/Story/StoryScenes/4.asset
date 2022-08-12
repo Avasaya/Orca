@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb8a32495379f649afdd4398a8407d3, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Well, here it is\u2026"
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: Why are there so much garbage here?
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "I\u2019m the sure the beach you remembered when you were a child was much
+      more beautiful compared to this, but time has changed a lot of things in this
+      town. "
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: 'Yes, I remember it being cleaner and full of life. How did it become like
+      this? '
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "Well\u2026. The previous mayor wanted to boost the town\u2019s tourism
+      and economy and invited a lot of investors to establish businesses here, the
+      population also increased with it. "
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: "The problem is there is no strict control over waste disposal, so tourists,
+      locals, and establishments just dump their waste here. We\u2019ve been trying
+      to demand local authorities to do something about it, but we\u2019re just left
+      ignored by them."
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: "That\u2019s horrible! "
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "I know\u2026 That\u2019s why our organization was established to deal
+      with this problem. Some of the locals work as volunteers to help clean up this
+      place, but there would always be new garbage replacing the old ones. "
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: Should we head back now? Your official work starts tomorrow so you can
+      head home early for today.
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: "Thank you, but I\u2019d like to stay here for a moment\u2026"
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "Then I\u2019ll leave first, see you tomorrow. "
+    speaker: {fileID: 11400000, guid: 4d3d837e322c27e4887c47353aedbacd, type: 2}
+    actions: []
+  - text: See you.
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  - text: "I can\u2019t believe this place has become like this\u2026 "
+    speaker: {fileID: 11400000, guid: 180dd5c3abf0a0c45b2ba75479ffb1d1, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 6ee42a791435b4e489c9a6a2f94ad449, type: 3}
+  nextScene: {fileID: 11400000, guid: fb710cafd68399049815c0c0ad4ce57a, type: 2}
