@@ -17,29 +17,4 @@ public class SceneSwitcher : MonoBehaviour
     {
         Application.Quit();
     }
-
-    public void enterProjectCloseup()
-    {
-        SceneManager.LoadScene("ProjectCloseup");
-    }
-
-    public void enterRequests()
-    {
-        SceneManager.LoadScene("SelectRequest");
-    }
-
-      public void enterRecycling()
-    {
-        SceneManager.LoadScene("SelectProject");
-    }
-
-    public void enterMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
-
-    public void enterArea1()
-    {
-        SceneManager.LoadScene("Area1_LevelSelection");
-    }
 }
